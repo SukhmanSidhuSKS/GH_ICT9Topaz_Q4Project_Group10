@@ -6,7 +6,7 @@ function password() {
     const btn = document.getElementById('btn');
 
     if (user === 'SuMa_11' && pas === '2113') {
-        window.alert('Welcome sks44!');
+        window.alert('Welcome SuMa_11!');
         window.location.href = ("notebooks.html");
 
         window.location.replace("notebooks.html");
