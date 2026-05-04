@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<title>ICT 9 Project</title>
+<link rel="stylesheet" href="style.css">
+<style>
+ footer {
+  background-color: rgba(230, 213, 226, 0.5);
+  position: fixed;
+  bottom: 0;
+  left: 220px;
+  width: calc(100% - 220px);
+  height: auto;
+  color: #7C616C
+}
+.sidebar {
+ position: fixed;
+ top: 0;
+ left: 0;  
+ height: 100%;
+ width: 220px;
+ background-color: #DDCAD9;
+ padding-top: 20px;
+}
+.main-content {
+ margin-left: 220px; 
+}
+body {
+ overflow-x: hidden;
+}
+.card:hover {
+  transform: translateY(-5px);
+} 
+.card {
+  border: none;
+  border-radius: 15px;
+}
+</style>
+</head>
+<!-- Used Google for .card:hover -->
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+   <div class="sidebar text-white p-3">
+ <a href="dashboard.html">
+    <img src="website logo.png" width="95" height="95" class="mb-4" alt="Website Logo">
+</a>
+   <ul class="nav flex-column">
+       <li class="nav-item"><a href="dashboard.html" class="nav-link text-black">Dashboard</a></li>
+       <li class="nav-item"><a href="notebooks.html" class="nav-link text-black">Virtual Notebooks</a></li>
+       <li class="nav-item"><a href="tasks.html" class="nav-link text-black">Tasks</a></li>
+       <li class="nav-item"><a href="profile.html" class="nav-link text-black">Profile</a></li>
+        <li class="nav-item"><a href="about us.html" class="nav-link text-black">About us</a></li>
+       <li class="nav-item"><a href="index.html" class="nav-link text-black">Logout</a></li>
+   </ul>
+</div>
+    </div>
+</nav>
+<br>
+  <div class="main-content">
+            <h2 style="text-align: center;">Notebooks</h2>
+            <p style="text-align: center;">Select a subject!</p>
+            
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">Filipino</h5>
+                        <img src="https://theoilpaintstore.com/15165-thickbox_default/colleen-poster-color-pale-orange-12ml.jpg" class="subject-icon" width="450" height="75" loading="lazy"> 
+                        <p class="mb-1 text-muted">9-Topaz 2025-2026</p>
+                        <p class="small">Ms. Oval</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">Science</h5>
+                         <img src="https://img.magnific.com/premium-photo/abstract-background-design-hd-caribbean-green-color_851755-26933.jpg?semt=ais_hybrid&w=740&q=80" class="subject-icon" width="450" height="75" loading="lazy">
+                        <p class="mb-1 text-muted">9-Topaz 2025-2026</p>
+                        <p class="small">Mr. Castano</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">English</h5>
+                         <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMIAAAEDCAMAAABQ/CumAAAAA1BMVEX5Q1CtUDi3AAAASElEQVR4nO3BAQ0AAADCoPdPbQ43oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIB7A8VJAAEcmy75AAAAAElFTkSuQmCC" class="subject-icon" width="450" height="75" loading="lazy"> 
+                        <p class="mb-1 text-muted">9-Topaz 2025-2026</p>
+                        <p class="small">Ms. Alfaro</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">Math</h5>
+                         <img src="https://play-lh.googleusercontent.com/YRwg0ZwGwi5q61qruiMyNK8IFHya5Sf7HsTAokhHyaMWXR3y8-Wqj9TJ5ke7puq7e0I=w3840-h2160-rw" class="subject-icon" width="450" height="75" loading="lazy"> 
+                        <p class="mb-1 text-muted">9-Topaz 2025-2026</p>
+                        <p class="small">Mr. Banting</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">Social Studies</h5>
+                         <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSXL6PlzUvf2RxggH34iwpDuBFs_mf1i76afxB12NgD2uzf2A3x" class="subject-icon" width="450" height="75" loading="lazy"> 
+                        <p class="mb-1 text-muted">9-Topaz 2025-2026</p>
+                        <p class="small">Mr. Marutani</p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">Values Education</h5>
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcS4VKp7adESqzqObih8-RW0dS2-lXyfH9Ntm-mCDUZlj2KM2pi9" class="subject-icon" width="450" height="75" loading="lazy"> 
+                        <p class="mb-1 text-muted">9-Topaz 2025-2026</p>
+                        <p class="small">Ms. Libramonte</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- So that the footer is aligned to the center-->
+ 
+<footer style="text-align: center;"> Sukhman K. Sidhu & Mallorie Micu | 9 & Topaz ©2026</footer>
+</div>
+</body>
+</html>

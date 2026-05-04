@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width-device-width, initial-scale=1.0 ">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+<title>ICT 9 Project</title>
+<link rel="stylesheet" href="style.css">
+<style>
+ footer {
+  background-color: rgba(230, 213, 226, 0.5);
+  position: fixed;
+  bottom: 0;
+  left: 220px;
+  width: calc(100% - 220px);
+  height: auto;
+  color: #7C616C
+}
+.sidebar {
+ position: fixed;
+ top: 0;
+ left: 0;  
+ height: 100%;
+ width: 220px;
+ background-color: #DDCAD9;
+ padding-top: 20px;
+}
+.main-content {
+ margin-left: 220px; /
+}
+body {
+ overflow-x: hidden;
+}
+.card:hover {
+  transform: translateY(-5px);
+} 
+.card {
+  border: none;
+  border-radius: 15px;
+}
+.custom-btn {
+  background-color: #7C616C;
+  color: #E5E9EC;
+  border: none;
+}
+
+.custom-btn:hover {
+  background-color: #E5E9EC;
+  color: #7C616C;
+}
+</style>
+</head>
+<!-- Used Google for .card:hover -->
+<body>
+<nav class="navbar navbar-expand-sm navbar-light bg-light">
+   <div class="sidebar text-white p-3">
+<a href="dashboard.html">
+    <img src="website logo.png" width="95" height="95" class="mb-4" alt="Website Logo">
+</a>
+   <ul class="nav flex-column">
+       <li class="nav-item"><a href="dashboard.html" class="nav-link text-black">Dashboard</a></li>
+       <li class="nav-item"><a href="notebooks.html" class="nav-link text-black">Virtual Notebooks</a></li>
+       <li class="nav-item"><a href="tasks.html" class="nav-link text-black">Tasks</a></li>
+       <li class="nav-item"><a href="profile.html" class="nav-link text-black">Profile</a></li>
+        <li class="nav-item"><a href="about us.html" class="nav-link text-black">About us</a></li>
+       <li class="nav-item"><a href="index.html" class="nav-link text-black">Logout</a></li>
+   </ul>
+</div>
+    </div>
+</nav>
+<br>
+  <div class="main-content">
+            <h2 style="text-align: center;">Tasks</h2>
+            <p style="text-align: center;">Choose a Task!</p>
+            <div class="row">
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">Mathematics</h5>
+                        <p class="mb-1 text-muted">Deadline: April 9, 2026 | 10:00 A.M.</p>
+                        <p class="small">Drill Sheet 2</p>
+                         <br>
+                         <a href="https://obmontessorigreenhills.orangeapps.ph/oa_school/dashboard" class="btn custom-btn w-100">Take this activity</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">Science</h5>
+                        <p class="mb-1 text-muted">Deadline: April 10, 2026 | 11:00 A.M.</p>
+                        <p class="small">Lab Activity 3</p>
+                         <br>
+                   <a href="https://obmontessorigreenhills.orangeapps.ph/oa_school/dashboard" class="btn custom-btn w-100">Take this activity</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">ICT</h5>
+                        <p class="mb-1 text-muted">Deadline: May 8, 2026 | 2:30 P.M.</p>
+                        <p class="small">Quarter Project</p>
+                         <br>
+                  <a href="https://obmontessorigreenhills.orangeapps.ph/oa_school/dashboard" class="btn custom-btn w-100">Submit</a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 mb-4">
+                    <div class="card p-3">
+                        <h5 class="fw-bold">VE</h5>
+                        <p class="mb-1 text-muted">Deadline: April 22, 2026 | 8:00 A.M.</p>
+                        <p class="small">Film Critique</p>
+                         <br>
+                   <a href="https://obmontessorigreenhills.orangeapps.ph/oa_school/dashboard" class="btn custom-btn w-100">Play Video Clip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- So that the footer is aligned to the center-->
+ 
+<footer style="text-align: center;"> Sukhman K. Sidhu & Mallorie Micu | 9 & Topaz ©2026</footer>
+</div>
+  </body>
+</html>
