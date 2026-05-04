@@ -17,3 +17,13 @@ body {
     p2{
       color:black
     }
+.notebook {
+    text-align: center;
+    width: 75   rem;
+    float: right;  
+}
+.tasks{
+  text-align: center;
+  float: right;
+  width: 75rem  
+}
