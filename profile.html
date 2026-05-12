@@ -65,6 +65,21 @@ body {
   justify-content: center; 
   align-items: center;          
 }
+ .profile-container {
+           width: 150px;
+           height: 150px;
+           border-radius: 50%;
+           overflow: hidden;
+           margin: auto;
+           border: 3px solid
+       }
+
+
+       .profile-container img {
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+       }
 </style>
 <!-- For .info-group, .change-btn  I used Google-->
 </head>
@@ -92,11 +107,14 @@ body {
         <h1 class="text-center mb-4">Profile</h1>
         <p class="text-center mb-4">Student Information</p>
 
-  <div class="profile">
-    <img src="aulonnaax sur TikTok.jpg" class="avatar">
-    <input type="file" class="form-control file-input">
-  </div><br>
-       
+    
+        <div class="profile-container">
+        <img id="profilePreview" src="https://via.placeholder.com/150" alt="Profile Picture">
+       </div>
+
+
+        <input type="file" accept="image/*" onchange="previewImage(event)">
+
   <script>
        function previewImage(event) {
            const reader = new FileReader();
@@ -106,13 +124,6 @@ body {
            reader.readAsDataURL(event.target.files[0]);
        }
         </script>
-
-                  <div class="profile-container">
-        <img id="profilePreview" src="https://via.placeholder.com/150" alt="Profile Picture">
-       </div>
-
-
-        <input type="file" accept="image/*" onchange="previewImage(event)">
 
 
 <br>
