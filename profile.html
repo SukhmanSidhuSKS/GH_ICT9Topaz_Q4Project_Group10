@@ -96,6 +96,25 @@ body {
     <img src="aulonnaax sur TikTok.jpg" class="avatar">
     <input type="file" class="form-control file-input">
   </div><br>
+       
+  <script>
+       function previewImage(event) {
+           const reader = new FileReader();
+           reader.onload = function(){
+               document.getElementById('profilePreview').src = reader.result;
+           }
+           reader.readAsDataURL(event.target.files[0]);
+       }
+        </script>
+
+                  <div class="profile-container">
+        <img id="profilePreview" src="https://via.placeholder.com/150" alt="Profile Picture">
+       </div>
+
+
+        <input type="file" accept="image/*" onchange="previewImage(event)">
+
+
 <br>
   <div class="info-card"> 
     <h4 style="text-align: center;">Student Information</h4>
